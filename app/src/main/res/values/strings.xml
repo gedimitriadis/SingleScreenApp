@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">Single ScreenApp</string>
+    <string name="app_name">Single Screen App</string>
+    <string name="url">www.carstats.gr</string>
+    <string name="manage">Manage your car\'s service e-book</string>
+    <string name="compare">Compare Models and Companies</string>
+    <string name="repair">Repair Statistics for Models and Companies</string>
+    <string name="reminder">Set Reminders for Maintenance, Insurance etc</string>
+    <string name="email">Email: info@carstats.gr</string>
+    <string name="desc1">Car wheel image</string>
+    <string name="desc2">car repairs </string>
+
+
+
 </resources>

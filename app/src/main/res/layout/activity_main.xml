@@ -7,7 +7,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/activity_main"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
 
         tools:context="com.example.android.singlescreenapp.MainActivity">
 
@@ -17,21 +17,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
-            android:src="@drawable/car" />
+            android:src="@drawable/car"
+            android:contentDescription="@string/desc1"/>
 
         <TextView
             android:id="@+id/Title"
+            style="@style/Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="#ff6347"
-            android:fontFamily="sans-serif-condensed"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp"
-            android:paddingTop="0dp"
-            android:text="www.carstats.gr"
-            android:textColor="#ffffff"
-            android:textSize="36sp" />
+            android:text="@string/url" />
 
         <LinearLayout
             android:id="@+id/Linear1"
@@ -43,54 +37,32 @@
 
             <TextView
                 android:id="@+id/Manage"
+                style="@style/orangeBanner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#ff6347"
-                android:fontFamily="sans-serif-condensed"
-                android:paddingBottom="8dp"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
-                android:text="Manage your car's service e-book"
-                android:textColor="@android:color/white"
-                android:textSize="20sp" />
+                android:text="@string/manage" />
 
             <TextView
                 android:id="@+id/Compare"
+                style="@style/whiteBanner"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed"
-                android:paddingBottom="8dp"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
-                android:text="Compare Models and Companies"
-                android:textColor="@android:color/black"
-                android:textSize="20sp" />
+                android:text="@string/compare" />
 
             <TextView
 
                 android:id="@+id/Repair"
+                style="@style/orangeBanner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#ff6347"
-                android:fontFamily="sans-serif-condensed"
-                android:paddingBottom="8dp"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
-                android:text="Repair Statistics for Models and Companies"
-                android:textColor="@android:color/white"
-                android:textSize="20sp" />
+                android:text="@string/repair" />
 
             <TextView
                 android:id="@+id/Reminder"
+                style="@style/whiteBanner"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed"
-                android:paddingBottom="8dp"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
-                android:text="Set Reminders for Maintenance, Insurance etc"
-                android:textColor="@android:color/black"
-                android:textSize="20sp" />
+                android:text="@string/reminder" />
 
 
             <ImageView
@@ -99,20 +71,15 @@
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
-                android:src="@drawable/pictons" />
+                android:src="@drawable/pictons"
+                android:contentDescription="@string/desc2" />
 
             <TextView
                 android:id="@+id/Email"
+                style="@style/orangeBanner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#ff6347"
-                android:fontFamily="sans-serif-condensed"
-                android:paddingBottom="8dp"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
-                android:text="Email: info@carstats.gr"
-                android:textColor="@android:color/white"
-                android:textSize="20sp" />
+                android:text="@string/email" />
 
 
         </LinearLayout>
